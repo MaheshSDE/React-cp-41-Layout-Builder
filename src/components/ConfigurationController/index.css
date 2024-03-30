@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.configuration-controller-container {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 60px;
+  padding-bottom: 30px;
+  background-color: #475569;
+}
+
+.Layout {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.checkbox-input {
+  cursor: pointer;
+  outline: none;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #f1f5f9;
+  padding-left: 5px;
+}

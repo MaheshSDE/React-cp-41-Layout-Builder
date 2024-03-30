@@ -1,0 +1,92 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-navbar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  background-color: #e2e8f0;
+  width: 40%;
+  height: 35vh;
+  margin-right: 2px;
+}
+
+.left-navbar-menu {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #475569;
+}
+
+.list-items {
+  list-style-type: none;
+}
+
+.item {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #64748b;
+  padding-bottom: 10px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f5f9;
+  height: 35vh;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.content-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #64748b;
+}
+
+.content-description {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #64748b;
+}
+
+.right-navbar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #e2e8f0;
+  width: 40%;
+  height: 35vh;
+  margin-left: 2px;
+}
+
+.right-navbar {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #475569;
+}
+
+.ad-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid #475569;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 10px;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
